@@ -1,0 +1,67 @@
+.nav-container{
+    background-color: #fff;
+    font-size: 2rem;
+    height: 5rem;
+    width: 100%;
+
+
+
+    .nav{
+        display: flex;
+        width: 100%;
+       align-items: center;
+       padding-top: .5rem;
+        height: 100%;
+        i{
+            padding:  0rem 5rem;
+        }
+        input{
+            width: 100%;
+            align-items: center;
+            top: 1rem;
+            height: 4rem;
+            border: none;
+            background: #F8F7FA;
+            padding-left: 1rem;
+            
+        }
+
+        ul{
+            align-content: flex-end;
+            list-style-type: none;
+            padding-left: 40rem;
+            height: 100%;
+            position: relative;
+            width: 100%;
+            text-align: center;
+
+            li{
+                position: relative;
+                height: 100%;   
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                width: 20rem;
+
+                &:hover{
+                    background-color: #F8F7FA;
+                    transition: .3s ease-in-out
+                }
+                
+                span{
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    font-size: 1.3rem;
+
+
+
+
+                }
+                
+            };
+        }
+        
+    }
+}
