@@ -13,7 +13,22 @@
                 left: 25%;
                 top: 30%;
                 transform: translate(-50%, -50%);
-                font-size: 5rem;      
+                font-size: 5rem;   
+                cursor: pointer; 
+                
+                .button{
+                    position: absolute;
+                    width: 15rem;
+                    height: 4rem;
+                    background-color: #2F2E41;
+                    color: #fff;
+                    border-radius: 10rem;
+                    top: 10rem;
+                    left: 18rem;
+                    cursor: inherit !important;
+                    border-style: none;
+                }
+
                 }
                 
             }

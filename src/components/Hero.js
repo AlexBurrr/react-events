@@ -1,6 +1,5 @@
 import React from 'react';
 import heroImg from '../images/heroImg1.svg';
-import Button from './Button'
 
 
 const Hero = () => {
@@ -10,7 +9,7 @@ const Hero = () => {
                 <span className='text-container'>
                     <span className="hero-typography">
                         Explore online events
-                        <Button buttonTitle={'Search events'} />
+                        <button className='button'>Find an event</button>
                     </span>
                 </span>
                 <img src={heroImg} alt="" />
